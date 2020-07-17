@@ -1,1 +1,1 @@
-The image uploaded by the user will be stored here for classification.
+La imagen que el usuario suba se almacenará aquí para el procesamiento.
