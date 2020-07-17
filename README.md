@@ -2,7 +2,7 @@
 # Laboratorio: Publicando un modelo de deep learning en Heroku
 
 
-> Una revisión de todo el camino necesario para publicar nuestro primer Producto de Datos
+> Una revisión de todo el camino necesario para publicar nuestro primer Producto de Datos. Ejemplo disponible en https://facemask-udd.herokuapp.com/
 
 
 ## Antes de empezar
@@ -53,7 +53,7 @@ pip install Flask
 
 - En "Deployment Method" escoger "Connect to Github" y seguir las instrucciones.
 
-- Una vez que esté listo, aparecerá un link para revisar la aplicacion en el navegador, como esto: https://facemask-udd.herokuapp.com/
+- Una vez que esté listo, aparecerá un link para revisar la aplicacion en el navegador, como este: https://facemask-udd.herokuapp.com/
 
 ## Créditos
 
