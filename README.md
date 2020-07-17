@@ -10,6 +10,22 @@
 - Para poder realizar este laboratorio se necesita una cuenta en [GitHub](https://www.github.com/) y [Heroku](https://www.heroku.com/). Ambas son gratuitas y les serán muy útiles en el futuro.
 - Se asume que el computador de cada estudiante tiene Python y Jupyter Notebook instalados (requisitos de varios cursos anteriores del programa). Si no es el caso, recomiendo seguir algún tutorial como esta [guía para instalar Jupyter Notebook en Windows 10](https://medium.com/@kswalawage/install-python-and-jupyter-notebook-to-windows-10-64-bit-66db782e1d02).
 
+## Instalación de librerías necesarias
+
+### Pytorch
+
+- Seguir las [instrucciones oficiales](https://pytorch.org/get-started/locally/) seleccionando el sistema operativo correspondiente.
+
+### fastai [(instrucciones)](https://docs.fast.ai/install.html)
+```
+pip install fastai
+```
+
+### Flask [(instrucciones)](https://flask.palletsprojects.com/en/1.1.x/installation/)
+```
+pip install Flask
+```
+### Si se desea modificar aún más la aplicación web, se recomienda usar un [ambiente virtual](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) (además es una muy buena práctica al momento de programar en Python)
 
 ## Construcción del Modelo de Deep Learning
 
@@ -39,3 +55,6 @@
 
 - Una vez que esté listo, aparecerá un link para revisar la aplicacion en el navegador, como esto: https://facemask-udd.herokuapp.com/
 
+## Créditos
+
+- La construcción del modelo está basada en las clases de [Francisco Ingham y Jeremy Howard](https://github.com/fastai/course-v3/blob/master/nbs/dl1/lesson2-download.ipynb). La aplicacion web está inspirada en el trabajo de [Shankar Jha](https://github.com/shankarj67/Water-classifier-fastai).
