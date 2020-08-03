@@ -8,6 +8,7 @@ __pycache__/
 
 # img
 *.jpg
+*.jpeg
 
 # Distribution / packaging
 .Python
