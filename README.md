@@ -57,5 +57,5 @@ pip install Flask
 
 ## Créditos
 
-- Este producto esta basado en aastroza/clase_productodatos_2019_udd
+- Este producto esta basado en [aastroza/clase_productodatos_2019_udd](https://github.com/aastroza/clase_productodatos_2019_udd). 
 - La construcción del modelo está basada en las clases de [Francisco Ingham y Jeremy Howard](https://github.com/fastai/course-v3/blob/master/nbs/dl1/lesson2-download.ipynb). La aplicacion web está inspirada en el trabajo de [Shankar Jha](https://github.com/shankarj67/Water-classifier-fastai).
