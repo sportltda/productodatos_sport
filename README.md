@@ -22,7 +22,7 @@
 ```
 pip install fastai
 ```
-Al instalar no funciono a la primera, asi que fue necesario usar la siguiente instrucción
+Al instalar el fastai no funciono a la primera, asi que fue necesario usar la siguiente instrucción
 ```
 pip install --no-deps fastai
 ```
@@ -60,11 +60,11 @@ pip install Flask
 
 - Una vez que esté listo, aparecerá un link para revisar la aplicacion en el navegador, como este: https://facemask-udd.herokuapp.com/
 
-## Imagemes
+## Imagenes
 
-Las imagenes se cargaron de acuerdo a las instruccion del notebook, pero fue necesario realizar varias iteraciones para construir el dataset de imagenes.
+Las imagenes se cargaron de acuerdo a las instruccion del notebook, pero fue necesario realizar varias iteraciones para construir el dataset.
 
-Luego manualmente se seleccionaron las imagenes que mas se ajustaban al problema que queria responder en este producto de datos.
+Luego manualmente se seleccionaron las imagenes que mas se ajustaban al problema que se queria responder en este primer producto de datos.
 
 
 ## Créditos
