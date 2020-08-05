@@ -1,8 +1,10 @@
 
-# Laboratorio: Publicando un modelo de deep learning en Heroku
+# Laboratorio Primer Producto de Datos - Publicando un modelo de deep learning en Heroku
 
 
-> Una revisión de todo el camino necesario para publicar nuestro primer Producto de Datos. Ejemplo disponible en https://claseudd-tarea.herokuapp.com/
+> Enlace Producto de Datos: https://claseudd-tarea.herokuapp.com/
+
+> Para realizar esta implementación de este primer producto de datos, se recorrio el siguiente camino:
 
 
 ## Antes de empezar
@@ -20,7 +22,10 @@
 ```
 pip install fastai
 ```
-
+Al instalar no funciono a la primera, asi que fue necesario usar la siguiente instrucción
+```
+pip install --no-deps fastai
+```
 ### Flask [(instrucciones)](https://flask.palletsprojects.com/en/1.1.x/installation/)
 ```
 pip install Flask
@@ -54,6 +59,13 @@ pip install Flask
 - En "Deployment Method" escoger "Connect to Github" y seguir las instrucciones.
 
 - Una vez que esté listo, aparecerá un link para revisar la aplicacion en el navegador, como este: https://facemask-udd.herokuapp.com/
+
+## Imagemes
+
+Las imagenes se cargaron de acuerdo a las instruccion del notebook, pero fue necesario realizar varias iteraciones para construir el dataset de imagenes.
+
+Luego manualmente se seleccionaron las imagenes que mas se ajustaban al problema que queria responder en este producto de datos.
+
 
 ## Créditos
 
