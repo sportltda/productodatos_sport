@@ -4,7 +4,7 @@
 
 > Enlace Producto de Datos: https://claseudd-tarea.herokuapp.com/
 
-> Para realizar esta implementación de este primer producto de datos, se recorrio el siguiente camino:
+> Para realizar la implementación de este primer producto de datos, se recorrio el siguiente camino:
 
 
 ## Antes de empezar
