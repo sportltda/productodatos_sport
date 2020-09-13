@@ -21,7 +21,7 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
 
-path = Path("models")
+path = Path('models')
 learn = load_learner(path)
 
 
