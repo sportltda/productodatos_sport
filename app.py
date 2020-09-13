@@ -6,8 +6,6 @@ import glob
 import re
 from pathlib import Path
 
-
-
 # Import fast.ai Library
 from fastai import *
 from fastai.vision import *
@@ -21,10 +19,8 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
 
-path = Path('export.pkl')
+path = Path('models')
 learn = load_learner(path)
-
-
 
 
 def model_predict(img_path):
@@ -36,9 +32,6 @@ def model_predict(img_path):
     pred_class,pred_idx,outputs = learn.predict(img)
     return str(pred_class)
     
-
-
-
 
 @app.route('/', methods=['GET'])
 def index():
